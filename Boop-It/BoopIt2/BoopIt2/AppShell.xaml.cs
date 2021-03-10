@@ -10,6 +10,7 @@ namespace BoopIt2
     public AppShell()
     {
       InitializeComponent();
+      Routing.RegisterRoute(nameof(NoteEntryPage), typeof(NoteEntryPage));
     }
 
   }
